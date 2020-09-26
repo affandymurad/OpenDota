@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3633E55D251CE725007C3AC3 /* UrlPhotoHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3633E55C251CE725007C3AC3 /* UrlPhotoHandling.swift */; };
+		3633E55F251D7E95007C3AC3 /* UrlImageHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3633E55E251D7E95007C3AC3 /* UrlImageHandling.swift */; };
 		3653C5FC251C460000F27130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C5FB251C460000F27130 /* AppDelegate.swift */; };
-		3653C5FE251C460000F27130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C5FD251C460000F27130 /* SceneDelegate.swift */; };
 		3653C600251C460000F27130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C5FF251C460000F27130 /* ViewController.swift */; };
 		3653C603251C460000F27130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3653C601251C460000F27130 /* Main.storyboard */; };
 		3653C606251C460000F27130 /* OpenDota.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3653C604251C460000F27130 /* OpenDota.xcdatamodeld */; };
 		3653C608251C460400F27130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3653C607251C460400F27130 /* Assets.xcassets */; };
 		3653C60B251C460400F27130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3653C609251C460400F27130 /* LaunchScreen.storyboard */; };
+		3653C613251C587C00F27130 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C612251C587C00F27130 /* DesignableUITextField.swift */; };
+		3653C615251C5E9400F27130 /* SupportExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C614251C5E9400F27130 /* SupportExtension.swift */; };
+		3653C619251C7ED600F27130 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C618251C7ED600F27130 /* BaseViewController.swift */; };
+		3653C61B251C7EFE00F27130 /* BaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C61A251C7EFE00F27130 /* BaseDelegate.swift */; };
+		3653C61D251C7F2800F27130 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C61C251C7F2800F27130 /* BasePresenter.swift */; };
+		3653C621251C7FE700F27130 /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C620251C7FE700F27130 /* ViewPresenter.swift */; };
+		3653C623251C80F900F27130 /* Dota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C622251C80F900F27130 /* Dota.swift */; };
+		3653C625251C85B600F27130 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653C624251C85B600F27130 /* SwiftyJSON.swift */; };
+		368DC0FB251E36ED009A0DA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368DC0FA251E36ED009A0DA3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3633E55C251CE725007C3AC3 /* UrlPhotoHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlPhotoHandling.swift; sourceTree = "<group>"; };
+		3633E55E251D7E95007C3AC3 /* UrlImageHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageHandling.swift; sourceTree = "<group>"; };
 		3653C5F8251C460000F27130 /* OpenDota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenDota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3653C5FB251C460000F27130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3653C5FD251C460000F27130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3653C5FF251C460000F27130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3653C602251C460000F27130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3653C605251C460000F27130 /* OpenDota.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenDota.xcdatamodel; sourceTree = "<group>"; };
 		3653C607251C460400F27130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3653C60A251C460400F27130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3653C60C251C460400F27130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3653C612251C587C00F27130 /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		3653C614251C5E9400F27130 /* SupportExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportExtension.swift; sourceTree = "<group>"; };
+		3653C618251C7ED600F27130 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3653C61A251C7EFE00F27130 /* BaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDelegate.swift; sourceTree = "<group>"; };
+		3653C61C251C7F2800F27130 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		3653C620251C7FE700F27130 /* ViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
+		3653C622251C80F900F27130 /* Dota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota.swift; sourceTree = "<group>"; };
+		3653C624251C85B600F27130 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		368DC0FA251E36ED009A0DA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +78,42 @@
 		3653C5FA251C460000F27130 /* OpenDota */ = {
 			isa = PBXGroup;
 			children = (
+				3653C617251C7EA300F27130 /* Utils */,
+				3653C616251C7E9500F27130 /* Base */,
 				3653C5FB251C460000F27130 /* AppDelegate.swift */,
-				3653C5FD251C460000F27130 /* SceneDelegate.swift */,
 				3653C5FF251C460000F27130 /* ViewController.swift */,
+				3653C620251C7FE700F27130 /* ViewPresenter.swift */,
 				3653C601251C460000F27130 /* Main.storyboard */,
 				3653C607251C460400F27130 /* Assets.xcassets */,
 				3653C609251C460400F27130 /* LaunchScreen.storyboard */,
 				3653C60C251C460400F27130 /* Info.plist */,
 				3653C604251C460000F27130 /* OpenDota.xcdatamodeld */,
+				3653C622251C80F900F27130 /* Dota.swift */,
+				368DC0FA251E36ED009A0DA3 /* DetailViewController.swift */,
 			);
 			path = OpenDota;
+			sourceTree = "<group>";
+		};
+		3653C616251C7E9500F27130 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3653C618251C7ED600F27130 /* BaseViewController.swift */,
+				3653C61A251C7EFE00F27130 /* BaseDelegate.swift */,
+				3653C61C251C7F2800F27130 /* BasePresenter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3653C617251C7EA300F27130 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3653C612251C587C00F27130 /* DesignableUITextField.swift */,
+				3653C614251C5E9400F27130 /* SupportExtension.swift */,
+				3653C624251C85B600F27130 /* SwiftyJSON.swift */,
+				3633E55C251CE725007C3AC3 /* UrlPhotoHandling.swift */,
+				3633E55E251D7E95007C3AC3 /* UrlImageHandling.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +187,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3653C621251C7FE700F27130 /* ViewPresenter.swift in Sources */,
 				3653C600251C460000F27130 /* ViewController.swift in Sources */,
+				3653C61D251C7F2800F27130 /* BasePresenter.swift in Sources */,
+				3653C625251C85B600F27130 /* SwiftyJSON.swift in Sources */,
+				3653C615251C5E9400F27130 /* SupportExtension.swift in Sources */,
 				3653C5FC251C460000F27130 /* AppDelegate.swift in Sources */,
-				3653C5FE251C460000F27130 /* SceneDelegate.swift in Sources */,
+				3633E55F251D7E95007C3AC3 /* UrlImageHandling.swift in Sources */,
 				3653C606251C460000F27130 /* OpenDota.xcdatamodeld in Sources */,
+				3653C613251C587C00F27130 /* DesignableUITextField.swift in Sources */,
+				3653C623251C80F900F27130 /* Dota.swift in Sources */,
+				3653C61B251C7EFE00F27130 /* BaseDelegate.swift in Sources */,
+				3653C619251C7ED600F27130 /* BaseViewController.swift in Sources */,
+				3633E55D251CE725007C3AC3 /* UrlPhotoHandling.swift in Sources */,
+				368DC0FB251E36ED009A0DA3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GR9KU77N8N;
 				INFOPLIST_FILE = OpenDota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = am.tiket.OpenDota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GR9KU77N8N;
 				INFOPLIST_FILE = OpenDota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = am.tiket.OpenDota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
